@@ -1,6 +1,6 @@
-# 📑 Coding Test
+<h1> 📑 Coding Test </h1>
 
-##🌹 Commit Templete🌹
+## 🌹 Commit Templete🌹
 - head : 문제출처/문제이름/난이도
 - body : 문제주소 및 참고 알고리즘
 - tail : 진행상태
