@@ -1,0 +1,15 @@
+class Solution:
+    def reorderLogFiles(self, logs: List[str]) -> List[str]:
+        letters, digits = [], []
+        for log in logs:
+            # 식별자를 제외한 숫자 로그인 경우
+            if log.split()[1].isdigit():
+                digits.append(log)
+             # 식별자를 제외한 문자 로그인 경우
+            else:
+                letters.append(log)
+
+        # 문자로그는 문자가 동일한 경우 식별자순서
+        # 람다 => 문자로그정렬 후 식별자정렬(키 2개 정렬) 
+        letters.sort(key=lambda x: (x.split()[1:], x.split()[0]))
+        return letters + digits
