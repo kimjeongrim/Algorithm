@@ -1,8 +1,0 @@
-class Solution:
-    def isPalindrome(self, s: str) -> bool:
-        # 소문자화
-        s = s.lower()
-        # 영어와 숫자를 제외한 모든 문자는 공백처리
-        # re.sub("내가 찾고 싶은 문구", "바꾸고 싶은 문구", ​"문구를 찾을 대상")
-        s = re.sub('[^a-z0-9]','',s) 
-        return s==s[::-1]
