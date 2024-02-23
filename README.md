@@ -5,9 +5,8 @@
 - body : 링크 및 알고리즘
 - tail : 진행상태
 
-### 🍒File Title 🍒
+### 🍒 File Title 🍒
 - 번호. 이름 (숙지도)
-
 
 ### 🏷️ 출처
 - [BOJ] 백준
